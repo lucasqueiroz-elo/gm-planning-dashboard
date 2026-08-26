@@ -134,7 +134,7 @@ with header_container:
         <div class="header-flex">
           <div>
             <div class="eyebrow-bar"></div>
-            <h1 class="gm-title">GM Planning</h1>
+            <h1 class="gm-title">GM Planning - teste</h1>
             <div class="subtitle">Meta de Lucro por Zona De Venda - ILUSTRATIVO</div>
             <div class="header-warning">
               <svg width="18" height="18" viewBox="0 0 24 24" class="header-warning-icon">
