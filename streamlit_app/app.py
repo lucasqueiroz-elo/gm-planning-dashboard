@@ -135,7 +135,7 @@ with header_container:
           <div>
             <div class="eyebrow-bar"></div>
             <h1 class="gm-title">GM Planning</h1>
-            <div class="subtitle">Meta de Lucro por Zona De Venda - ILUSTRATIVO</div>
+            <div class="subtitle">Meta de Lucro por Zona De Venda</div>
             <div class="header-warning">
               <svg width="18" height="18" viewBox="0 0 24 24" class="header-warning-icon">
                 <path d="M12 2 L23 21 H1 Z" fill="currentColor"/>
@@ -148,6 +148,7 @@ with header_container:
           </div>
           <img src="{get_logo_data_uri()}" class="header-logo" alt="BAT Brasil" />
         </div>
+        <div class="subtitle">ILUSTRATIVO</div>
         """,
         unsafe_allow_html=True,
     )
