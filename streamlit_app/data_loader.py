@@ -112,7 +112,7 @@ def build_long_dataset(_mtime_key: tuple) -> pd.DataFrame:
     territorios = territorios.rename(columns={
         "TERRITORY": "territory", "TERRITORY_TYPE": "territory_type",
         "TERRITORY_DESCRIPTION": "territory_desc", "SALES_REGIONAL_CLUSTER": "cluster",
-        "REGION_NAME": "region", "AREA_DESCRIPTION": "area", "FULL_DIGITAL": "full_digital",
+        "REGION_CODE": "region", "AREA_CODE": "area", "FULL_DIGITAL": "full_digital",
         "LOAD_DATE": "load_date",
     })
     territorios = territorios[[
